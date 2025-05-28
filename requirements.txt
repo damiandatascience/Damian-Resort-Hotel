@@ -1,0 +1,5 @@
+openai-agents   # SDK de OpenAI Agents
+python-dotenv   # Manejo de variables de entorno
+pydantic        # Validación de datos y modelos
+
+
