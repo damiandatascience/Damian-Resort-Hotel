@@ -1,0 +1,60 @@
+# Entornos virtuales
+venv/
+env/
+.venv/
+.env/
+
+# Archivos de configuración y claves
+.env
+*.env
+
+# Archivos de caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Pytest
+.pytest_cache/
+
+# Archivos de logs
+*.log
+
+# Archivos de bases de datos locales
+*.sqlite3
+*.db
+
+# Archivos de configuración de IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos de MacOS
+.DS_Store
+
+# Archivos de Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Archivos de Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Archivos de distribución
+build/
+dist/
+*.egg-info/
+
+# Archivos de cobertura de pruebas
+htmlcov/
+.coverage
+.tox/
+
+# Carpeta guardrails: pycache y archivos pyc
+guardrails/__pycache__/
+guardrails/*.pyc
+
+# Otros archivos temporales
+*.bak
+*.swp
+*.tmp
